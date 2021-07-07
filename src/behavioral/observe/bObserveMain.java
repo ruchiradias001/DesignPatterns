@@ -15,7 +15,7 @@ public class bObserveMain {
         channel.upload("Design Pattern");
 
         System.out.println("s3 subscribed a channel --> " + s3.isSubscribed());
-        
+
         channel.unsubscribe(s3);
 
         channel.upload("Observe Design Pattern");
